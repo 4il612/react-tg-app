@@ -9,16 +9,7 @@ function App() {
     tg.ready();
   }, []);
 
-  const onClose = () => {
-    tg.close();
-  };
-
-  return (
-    <div className="App">
-      worked!
-      <button onClick={onClose}>CLOSE</button>
-    </div>
-  );
+  return <div className="App">worked!</div>;
 }
 
 export default App;
